@@ -1150,11 +1150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/frontAppProjet.csproj",
+      "projectUniqueName": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/frontAppProjet.csproj",
       "projectName": "frontAppProjet",
-      "projectPath": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/frontAppProjet.csproj",
+      "projectPath": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/frontAppProjet.csproj",
       "packagesPath": "/Users/lucberghof/.nuget/packages/",
-      "outputPath": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/obj/",
+      "outputPath": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lucberghof/.nuget/NuGet/NuGet.Config"

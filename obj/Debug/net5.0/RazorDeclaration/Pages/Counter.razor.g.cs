@@ -82,8 +82,15 @@ using frontAppProjet.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/Pages/Counter.razor"
+using System.Text;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter/{Id:int}")]
-    public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
+    public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,7 +98,7 @@ using frontAppProjet.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/Pages/Counter.razor"
+#line 31 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/Pages/Counter.razor"
        
     [Parameter]
     public int Id { get; set; }
@@ -222,10 +229,6 @@ using frontAppProjet.Shared;
         }
         StateHasChanged();
     }
-    public void Dispose()
-    {
-        System.Console.WriteLine("salutperper");
-    }
 
     private async void RegisterScore()
     {
@@ -241,7 +244,13 @@ using frontAppProjet.Shared;
             Token = ""
         };
         await Http.PutAsJsonAsync<clicker.model.User>("https://micheul.alwaysdata.net/User/Save", UserToSave);
+        UriHelper.NavigateTo("/fetchData");
+    }
 
+    private async void DeleteCompte()
+    {
+        await Http.DeleteAsync("https://micheul.alwaysdata.net/User/Delete/" + user.Id);
+        UriHelper.NavigateTo("/fetchData");
     }
 
 #line default

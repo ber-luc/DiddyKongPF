@@ -8,35 +8,187 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -432078406,
+        "HashCode": 1065703874,
         "Kind": "Components.Component",
-        "Name": "frontAppProjet.App",
+        "Name": "frontAppProjet.Pages.Inscription",
         "AssemblyName": "frontAppProjet",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Inscription"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.App"
+          "Common.TypeName": "frontAppProjet.Pages.Inscription"
         }
       },
       {
-        "HashCode": -967121397,
+        "HashCode": -405357470,
         "Kind": "Components.Component",
-        "Name": "frontAppProjet.App",
+        "Name": "frontAppProjet.Pages.Inscription",
         "AssemblyName": "frontAppProjet",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "frontAppProjet.App"
+            "TagName": "frontAppProjet.Pages.Inscription"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.App",
+          "Common.TypeName": "frontAppProjet.Pages.Inscription",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 739317314,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Pages.FetchData",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -2099006828,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Pages.FetchData",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "frontAppProjet.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1000597998,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Pages.Index",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 140315790,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Pages.Index",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "frontAppProjet.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 275295920,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Pages.Counter",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 108979611,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Pages.Counter",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "frontAppProjet.Pages.Counter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -275546670,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Shared.NavMenu",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -492993998,
+        "Kind": "Components.Component",
+        "Name": "frontAppProjet.Shared.NavMenu",
+        "AssemblyName": "frontAppProjet",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "frontAppProjet.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "frontAppProjet.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -190,187 +342,35 @@
         }
       },
       {
-        "HashCode": -275546670,
+        "HashCode": -432078406,
         "Kind": "Components.Component",
-        "Name": "frontAppProjet.Shared.NavMenu",
+        "Name": "frontAppProjet.App",
         "AssemblyName": "frontAppProjet",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Shared.NavMenu"
+          "Common.TypeName": "frontAppProjet.App"
         }
       },
       {
-        "HashCode": -492993998,
+        "HashCode": -967121397,
         "Kind": "Components.Component",
-        "Name": "frontAppProjet.Shared.NavMenu",
+        "Name": "frontAppProjet.App",
         "AssemblyName": "frontAppProjet",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "frontAppProjet.Shared.NavMenu"
+            "TagName": "frontAppProjet.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1065703874,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.Inscription",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Inscription"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.Inscription"
-        }
-      },
-      {
-        "HashCode": -405357470,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.Inscription",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "frontAppProjet.Pages.Inscription"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.Inscription",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1000597998,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.Index",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 140315790,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.Index",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "frontAppProjet.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 739317314,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.FetchData",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -2099006828,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.FetchData",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "frontAppProjet.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 275295920,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.Counter",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 108979611,
-        "Kind": "Components.Component",
-        "Name": "frontAppProjet.Pages.Counter",
-        "AssemblyName": "frontAppProjet",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "frontAppProjet.Pages.Counter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontAppProjet.Pages.Counter",
+          "Common.TypeName": "frontAppProjet.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

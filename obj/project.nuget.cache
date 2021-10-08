@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ZVlkssa5nt5uYnSu4wOZ5bxGl8k/ay4744wauuNBfTuoqLWcpEW8mZtJg4U+RzgRllNDlmvZinIvE9pnJcjmw==",
+  "dgSpecHash": "BJz8tjvgcez2eyk4+heHtyDtUucSZVV0Yr0hT+jl27tSh8tFqyM54ofbSe0F8dnVUi3cQtRt0L0ljm0iJ5mjpw==",
   "success": true,
-  "projectFilePath": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/frontAppProjet.csproj",
+  "projectFilePath": "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/frontAppProjet.csproj",
   "expectedPackageFiles": [
     "/Users/lucberghof/.nuget/packages/microsoft.aspnetcore.authorization/5.0.10/microsoft.aspnetcore.authorization.5.0.10.nupkg.sha512",
     "/Users/lucberghof/.nuget/packages/microsoft.aspnetcore.components/5.0.10/microsoft.aspnetcore.components.5.0.10.nupkg.sha512",

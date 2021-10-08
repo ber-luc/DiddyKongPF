@@ -1,5 +1,5 @@
 @page "/counter/{Id:int}"
-@implements IDisposable
+@using System.Text
 @inject HttpClient Http
 @inject NavigationManager UriHelper
 
@@ -23,6 +23,7 @@
     <div class="timer">
         <h3>Time : @TimeActualHour : @TimeActualMinute : @TimeActualSecond</h3>
         <button class="btn btn-primary btn_save" @onclick="RegisterScore">Save</button>
+        <button class="btn btn-primary btn_save" @onclick="DeleteCompte">Delete</button>
     </div>
 </div>
 
@@ -157,10 +158,6 @@
         }
         StateHasChanged();
     }
-    public void Dispose()
-    {
-        System.Console.WriteLine("salutperper");
-    }
 
     private async void RegisterScore()
     {
@@ -176,6 +173,12 @@
             Token = ""
         };
         await Http.PutAsJsonAsync<clicker.model.User>("https://micheul.alwaysdata.net/User/Save", UserToSave);
+        UriHelper.NavigateTo("/fetchData");
+    }
 
+    private async void DeleteCompte()
+    {
+        await Http.DeleteAsync("https://micheul.alwaysdata.net/User/Delete/" + user.Id);
+        UriHelper.NavigateTo("/fetchData");
     }
 }

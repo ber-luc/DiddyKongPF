@@ -13,77 +13,84 @@ namespace frontAppProjet.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 1 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 2 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 3 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 4 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 5 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 6 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 7 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 8 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 9 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using frontAppProjet;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/_Imports.razor"
+#line 10 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/_Imports.razor"
 using frontAppProjet.Shared;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/Pages/Counter.razor"
+using System.Text;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter/{Id:int}")]
-    public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
+    public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,7 +98,7 @@ using frontAppProjet.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/diddyKongEnLigne/DiddyKongPF/Pages/Counter.razor"
+#line 31 "/Users/lucberghof/Documents/Dotnet2cours/exempleCours/frontAppProjet/Pages/Counter.razor"
        
     [Parameter]
     public int Id { get; set; }
@@ -222,10 +229,6 @@ using frontAppProjet.Shared;
         }
         StateHasChanged();
     }
-    public void Dispose()
-    {
-        System.Console.WriteLine("salutperper");
-    }
 
     private async void RegisterScore()
     {
@@ -241,7 +244,13 @@ using frontAppProjet.Shared;
             Token = ""
         };
         await Http.PutAsJsonAsync<clicker.model.User>("https://micheul.alwaysdata.net/User/Save", UserToSave);
+        UriHelper.NavigateTo("/fetchData");
+    }
 
+    private async void DeleteCompte()
+    {
+        await Http.DeleteAsync("https://micheul.alwaysdata.net/User/Delete/" + user.Id);
+        UriHelper.NavigateTo("/fetchData");
     }
 
 #line default
